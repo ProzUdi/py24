@@ -1,0 +1,1 @@
+print("Se não for ajudar, vaza!")
