@@ -20,3 +20,11 @@ def fatorial(num):
         fatorar = fatorar * num
         num = num - 1
     return fatorar    
+
+#funçao recursiva <<<
+# def fatorial (num):
+#   if ( num == 1):
+#     return num 1
+
+#return num * fatorial(num - 1)
+ 
