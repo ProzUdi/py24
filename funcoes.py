@@ -25,6 +25,5 @@ def fatorial(num):
 # def fatorial (num):
 #   if ( num == 1):
 #     return num 1
-
 #return num * fatorial(num - 1)
  
