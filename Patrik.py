@@ -7,7 +7,7 @@ somar = func.somar(numero1, numero2)
 subtrair = func.subtrair(numero1, numero2)
 multiplicacao = func.multiplicacao(numero1, numero2)
 divisao = func.divisao(numero1, numero2)
-fatorial = func.fatorar(numero1)
+fatorial = func.fatorial(numero1)
 
 print(somar)
 print(subtrair)
