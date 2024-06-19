@@ -21,3 +21,8 @@ def fatorar(num1):
         num1 -= 1
         
     return(fat)
+
+def fatorial_recursiva(num):
+    if (num == 1):
+        return(1)
+    return(num * fatorial_recursiva(num-1))

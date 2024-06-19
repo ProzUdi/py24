@@ -1,0 +1,99 @@
+# atividade 1 
+nome = input("Digite seu nome: ")
+print("Boas_Vindas" ,nome)
+
+# atividade 2
+num1 = int(input("Entre comum numero = "))
+num2 = int(input("Entre com um numero = "))
+soma = num1 + num2 
+print("A somas dos numeros é de: " ,soma)
+
+#atividade 3
+idade = int(input("Digite sua idade = "))
+meses = idade * 12
+print("A idade em meses é de:" ,meses)
+
+#atividade 4
+nome = input("Digite seu nome :")
+idade = int(input("Digite sua idade = "))
+mensagem = "Seu nome é {} e você tem {} anos".format(nome,idade)
+print(mensagem)
+
+#atividade 5
+frase = input("Digite uma frase:")
+frase_maiuscula = frase.upper()
+print("Frase Maiuscula:",frase_maiuscula)
+
+#ativiade 6 
+nome = input("Entre comn seu nome:")
+caracteres = len(nome)
+print(caracteres)
+
+#atividade 7
+num1 = int(input("Entre com um numero = "))
+num2 = int(input("Entre com um numero = "))
+num3 = int(input("Entre com um numero = "))
+media = num1 , num2 , num3
+print(media)
+
+#atividade 8 
+num = int(input("Entre com um numero = "))
+quadrado = num ** 2
+print("O Quadrado do numero é :" ,quadrado)
+
+#atividade 9 
+palavra = input("Digite uma palavra :")
+contrario = palavra[::-1]
+print("A Palavra ao contrario fica assim:",contrario)
+
+#atividade 10
+sobrenome = input("Digite seu sobrenome:")
+despedida = "{} Tchau até mais".format(sobrenome)
+print(despedida)
+
+#atividade 11
+num1 = int(input("Digite um numero = "))
+num2 = int(input("Digite um numero = "))
+produto = num1 * num2
+print(produto)
+
+#atividade 12
+import math
+num = int(input("Entre com um numero = "))
+raiz_quadrda = math.sqrt(num)
+print("A Raiz quadrda do numero é:" ,raiz_quadrda)
+
+#atividade 13
+x = int(input("Entre com um numero = "))
+y = int(input("Entre com um numero = "))
+z = int(input("Entre com um numero = "))
+maior_numero = max(x, y, z)
+print(maior_numero)
+
+#atividade 14
+raio = int(input("Entre com o raio = "))
+area = raio ** 2
+print("A area do circulo é:" ,area)
+
+#atividade 15
+num1 = int(input("Entre com um numero = "))
+num2 = int(input("Entre com um numero = "))
+quociente = num1 / num2 
+print("O Quociente é:" ,quociente)
+
+#atividade 16 
+base = int(input("Entre com a base = "))
+altura = int(input("Entre com a altura = "))
+area = 0.5 * base * altura 
+print("A area do triangulo é:" ,area)
+
+#atividade 17
+num1 = float(input("Entre com um numero = "))
+num2 = float(input("Entre com um numero = "))
+maior_numero = max(num1,num2)
+menor_numero = min(num1,num2)
+diferença = maior_numero - menor_numero
+print(diferença)
+
+
+
