@@ -27,3 +27,11 @@ def fatorial(num):
 #     return num 1
 #return num * fatorial(num - 1)
  
+#outra forma de fazer função divisão<<<
+# def dividir(num1, num2):
+    # if num2 == 0:
+    #     return "Não é possível dividir por zero"
+    # else:
+    #     return num1 / num2
+
+# para testar as funções
