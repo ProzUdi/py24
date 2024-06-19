@@ -34,4 +34,3 @@ def fatorial(num):
     # else:
     #     return num1 / num2
 
-# para testar as funções
