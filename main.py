@@ -1,4 +1,4 @@
-import funcoes
+import funcoesContato as funcoes
 
 contatos = funcoes.lerContatos()
 
