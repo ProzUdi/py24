@@ -1,18 +1,17 @@
-import funcoes as fun
+import funcoesContato as funcoes
 
-num1 = int(input("Digite um numero: "))
-num2 = int(input("Digite outro numero: "))
+contatos = funcoes.lerContatos()
 
-soma = fun.somar(num1, num2)
-sub = fun.subtrair(num1, num2)
-mult = fun.multiplicar(num1, num2)
-div = fun.dividir(num1, num2)
-
-fatorial = fun.fatorial(num1)
-
-print(soma)
-print(sub)
-print(mult)
-print(div)
-print(fatorial)
-
+opcao = 0
+while opcao != 3:
+  opcao = funcoes.opcoes()
+  if(opcao == 1):
+    print("Nome - Telefone")
+    for contato in contatos:
+      print(f"{contato}")
+  elif(opcao == 2):
+    contatos.append(funcoes.addContato())
+  elif(opcao == 3):
+    print("Obrigado por usar o sistema")
+  else:
+    print("Opção invalida")
